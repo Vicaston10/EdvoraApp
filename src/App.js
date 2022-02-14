@@ -44,7 +44,13 @@ class App extends Component {
   return (
     <div className="App">
       <main className="App-main">
-       <Filter filterProducts={this.filter}> </Filter>
+        <div>
+          {
+               this.state.products.length > 0 &&
+                <Filter filterProducts={this.filter}> </Filter>           
+          }
+        </div>
+       
        <div className="ProductSection"> 
        <h2> Edvora </h2>
        <p> Products</p> 
