@@ -1,0 +1,40 @@
+body{
+  background-color: #292929;
+}
+
+
+.App {
+  text-align: center;
+}
+
+/* .Filter{
+  background-color: red;
+} */
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: space-around;
+}
+
+.ProductSection {
+  position: absolute;
+  left: 22%;
+  top: 25px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-top: 12px;
+}
+
+

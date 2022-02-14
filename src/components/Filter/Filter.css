@@ -1,0 +1,48 @@
+.Filter{
+position: absolute;
+width: 228px;
+height: 275px;
+left: 41px;
+top: 43px;
+background: #131313;
+border-radius: 15px;
+padding-left: 10px;
+}
+
+.Label{
+    left: 5.2%;
+    top: 8.7%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A5A5A5;
+    font-family: SF Pro Display;
+    font-style: normal;
+    position: absolute;
+    padding-bottom: 7px;
+    padding-right: 55%;
+    border-bottom: 1px solid #CBCBCB;
+    margin-left: 10px;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+}
+
+.button{
+    background: #232323 !important;
+    border-radius: 4.68775px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 180px;
+    height: 38px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+
+}

@@ -1,0 +1,77 @@
+.ProductCategory {
+    /* width: 100%; */
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.ProductList{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #131313;
+    ;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+    white-space: nowrap;
+    width: 150vh;
+}
+
+.ProductHorizontal {
+    border: 1px solid CBCBC #CBCBCB;
+}
+
+.Product{
+width: 210px;
+height: 150px;
+left: 309px;
+top: 225px;
+background: #232323;
+border-radius: 10px;
+margin-right: 20px;
+padding: 5px;
+padding-bottom: 10px ;
+}
+
+
+.ProductDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ProductInfo {
+    margin-left: 20px;
+}
+
+.ProductSummary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.ProductTextBold {
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+color: #FFFFFF;
+
+}
+
+.ProductTextGrey {
+    
+color: #999999;
+font-size: 12px;
+}
+
+.ProductionDescription {
+    margin-left: 10px;
+}
+
+
+
