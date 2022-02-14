@@ -12,6 +12,14 @@ class App extends Component {
     products: []
   }
 
+  filter = filteredProduct => {
+    console.log(filteredProduct);
+    this.setState({
+      products: filteredProduct
+
+    });
+  };
+
   componentDidMount() {
     axios.get(this.state.baseUrl)
     .then(res => {
@@ -36,12 +44,12 @@ class App extends Component {
   return (
     <div className="App">
       <main className="App-main">
-       <Filter> </Filter>
+       <Filter filterProducts={this.filter}> </Filter>
        <div className="ProductSection"> 
        <h2> Edvora </h2>
        <p> Products</p> 
   
-  
+        <div>{console.log(this.state.products)}</div>
         {this.state.products.map(products => (
         //  console.log(product)
          Object.keys(products).map((key, index) => (

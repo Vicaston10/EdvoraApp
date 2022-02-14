@@ -16,10 +16,10 @@ const product = (props) => {
                 </div>
             </div>
             <div className='ProductSummary'>
-                <span ProductTextGrey>{props.product.address.city}</span>
+                <span ProductTextGrey>{props.product.address.city}, {props.product.address.state}</span> <br/>
                 <span ProductTextGrey>Date: {new Date(props.product.date).toLocaleDateString()} </span>
             </div>
-            <span className='ProductTextGrey ProductionDescription'>{props.product.discription}</span>
+            <span className='ProductTextGrey ProductionDescription'>Description: {props.product.discription}</span>
        </div>
         )
 }

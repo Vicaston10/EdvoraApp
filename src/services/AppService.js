@@ -16,10 +16,4 @@ function groupProducByName(list, key) {
     return list.reduce((hash, obj) => ({...hash, [obj[key]]:( hash[obj[key]] || [] ).concat(obj)}), {})
 }
 
-function getProductCategory() {
-    return  [
-        'one', 'two', 'three', 'four'
-      ];
-}
-
-export default {getProducts, getProductCategory};
+export default {getProducts};
